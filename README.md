@@ -1,6 +1,6 @@
 # ssh_method_scanner
 
-Single host SSH method scanner.
+SSH method scanner. Reports password and publickey authentication.
 
 Installation:
 1. $ git clone https://github.com/crypt0rr/ssh_method_scanner.git
