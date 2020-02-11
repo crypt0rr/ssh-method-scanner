@@ -12,13 +12,13 @@ function messages {
 	 	echo -e "\e[32m[+] INFO: supports publickey authentication.\e[0m"
 	fi
 	if [[ $RESULT == *"unreachable"* ]]; then
-	 	echo -e "\e[31m[-] Erorr: target not reachable on port $PORT\e[0m"
+	 	echo -e "\e[33m[-] Erorr: target not reachable on port $PORT\e[0m"
 	fi
 	if [[ $RESULT == *"Bad port"* ]]; then
-	 	echo -e "\e[31m[-] Erorr: bad port.\e[0m"
+	 	echo -e "\e[33m[-] Erorr: bad port.\e[0m"
 	fi
 	if [[ $RESULT == *"timed out"* ]]; then
-	 	echo -e "\e[31m[-] Erorr: timed out.\e[0m"
+	 	echo -e "\e[33m[-] Erorr: timed out.\e[0m"
 	fi
 	echo ""
 }
