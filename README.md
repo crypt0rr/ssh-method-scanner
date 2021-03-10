@@ -1,8 +1,8 @@
-# ssh_method_scanner
+# ssh-method-scanner
 
 SSH method scanner. Reports password and publickey authentication.
 
 Installation:
-1. $ git clone https://github.com/crypt0rr/ssh_method_scanner.git
-2. $ cd ssh_method_scanner && chmod +x ssh_method_scanner.sh
-3. Usage: $ ./ssh_method_scanner.sh
+1. $ git clone https://github.com/crypt0rr/ssh-method-scanner.git
+2. $ cd ssh-method-scanner && chmod +x ssh-method-scanner.sh
+3. Usage: $ ./ssh-method-scanner.sh
